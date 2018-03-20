@@ -1,3 +1,3 @@
 class test{
-	notice("Print dummy text")
+	notice("why to print dummy text")
 }
