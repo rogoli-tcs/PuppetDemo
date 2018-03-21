@@ -9,9 +9,9 @@ class test::notepadpp {
 		content => "${x} ${facts['ruby']['sitedir']}"
 	}
 	
-	# file{'C:\test2.txt':
-		# ensure => present,
-		# source => "puppet:///modules/test/dummy.txt"
-	# }
+	file{'C:\index.html':
+		ensure => present,
+		content => template('test/index.html.erb'),
+	}
 }
 # include test::notepadpp
