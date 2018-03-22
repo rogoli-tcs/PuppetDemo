@@ -1,6 +1,6 @@
 class test::notepadpp {
 
-  notice("Hello")
+  
 	
 	$x = "Welcome to Puppet"
 	
@@ -13,5 +13,6 @@ class test::notepadpp {
 		ensure => present,
 		content => template('test/index.html.erb'),
 	}
+	
 }
 # include test::notepadpp
