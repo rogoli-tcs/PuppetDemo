@@ -30,7 +30,7 @@ class test::hdatapp{
           mergemode => append, 
 		 #require => Package["java"],		
 }
-include chocolatey
+
  package {'vlc':
   ensure   => installed,
   provider => 'chocolatey',
