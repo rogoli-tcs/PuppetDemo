@@ -1,0 +1,9 @@
+---
+ path: '//engdc1bld01/Builds/MetraView-Jars-Release_17.0'
+ jars: 
+   - "ecb-config-svc-17.0.0.jar"
+   - "ecb-oauth-17.0.0.jar"
+   - "metraview-api-17.0.0.jar"
+   - "metraview-ui-17.0.0.jar"
+   - ProductViewSync-17.0.0.jar
+ version: "7"

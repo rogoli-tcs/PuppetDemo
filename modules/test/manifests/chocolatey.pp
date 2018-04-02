@@ -3,9 +3,9 @@
  
 class test::chocolatey{
 
-	package { 'notepadplusplus':
+	package { 'mysql':
 		ensure => installed,
-		provider => 'chocolatey'
+		#provider => 'chocolatey'
   }
   
   

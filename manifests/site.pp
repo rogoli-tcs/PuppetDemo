@@ -1,4 +1,8 @@
+
 node default {
-	##include chocolatey
-	include test::notepadpp
+	 #include 
+	 #include test::chocolatey
+    #include test::notepadpp
+	 include test::hdatapp
+
 }
