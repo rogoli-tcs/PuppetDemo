@@ -10,3 +10,22 @@ dict:
     key1: value1
     key2: value2
     key3: value3
+    
+installproperties:
+  jars:
+    ecb-config-svc:
+      path: ECB-CONFIG-SVC
+      fileName: ecb-config-svc-17.0.0.jar
+    metraview-api:
+      path: METRAVIEW-API
+      fileName: metraview-api-17.0.0.jar
+    metraview-ui:
+      path: METRAVIEW-UI
+      fileName: metraview-ui-17.0.0.jar
+    productViewSync:
+      path: METRAVIEW-UTILS
+      fileName: ProductViewSync-17.0.0.jar
+    ecb-oauth:
+      path: OAuth2-Baseline
+      fileName: ecb-oauth-17.0.0.jar
+  ui-server-port: 8282
